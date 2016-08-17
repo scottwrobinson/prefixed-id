@@ -1,0 +1,29 @@
+{
+  "name": "prefixed-id",
+  "version": "0.0.1",
+  "description": "Generates random ids with a prefix (like Stripe)",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/scottwrobinson/prefixed-id.git"
+  },
+  "keywords": [
+    "ids"
+  ],
+  "author": "Auth0",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scottwrobinson/prefixed-id/issues"
+  },
+  "homepage": "https://github.com/scottwrobinson/prefixed-id",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.1.0"
+  },
+  "dependencies": {
+    "random-js": "^1.0.8"
+  }
+}
